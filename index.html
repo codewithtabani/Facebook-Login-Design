@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Page</title>
+    <style>
+        #container {
+            margin: 10% 300px;
+        }
+
+        #box1 {
+            margin: 0px 75px 0px 40px;
+        }
+
+        #span1 {
+            color: rgb(30, 120, 220);
+            font-size: 2.5em;
+            font-weight: 550;
+            text-shadow: 1px 1px 1px rgb(30, 120, 220);
+            display: block;
+            margin-bottom: 10px;
+            font-family: helvetica, arial, sans-serif;
+        }
+
+        #span2 {
+            display: block;
+        }
+
+        #paragraph1 {
+            color: black;
+        }
+
+        #box2 {
+            width: 300px;
+            min-height: 300px;
+            background-color: white;
+            box-shadow: -2px 2px 5px rgb(180, 180, 180);
+            border-radius: 10px;
+            position: relative;
+            top: 95px;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        #box2 .boxes {
+            width: 250px;
+            height: 30px;
+            padding: 5px;
+            outline: none;
+            border-radius: 5px;
+            margin: 10px 20px;
+            border: none;
+
+        }
+
+        #box2 .boxes:hover {
+            border-bottom: 1px solid palevioletred;
+        }
+
+        #box2 .boxes:focus {
+            border: 1px solid red;
+        }
+
+        #fpassword {
+            display: block;
+        }
+
+        input[type="button"] {
+            background-color: rgb(30, 120, 220);
+            color: white;
+            height: 40px;
+            border-radius: 5px;
+            width: 260px;
+            padding: 5px;
+            margin: 10px 20px;
+            border: none;
+        }
+
+        #fpassword {
+            color: rgb(70, 150, 250);
+            ;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        button {
+            width: 160px;
+            height: 40px;
+            border: none;
+            outline: none;
+            padding: 5px;
+            background-color: rgb(0, 180, 0);
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 13px;
+            margin: 0 22%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="box1">
+            <p id="paragraph1">
+                <span id="span1">facebook</span>
+                <span>Connect with friends and the world </span><span id="span2">around you on facebook </span>
+            </p>
+        </div>
+        <div id="box2">
+            <input type="email" name="email" id="email" placeholder="Email or phone number" class="boxes">
+            <input type="password" name="password" id="password" placeholder="Password" class="boxes">
+            <input type="button" name="button" id="button" value="Login">
+            <span id="fpassword">Forgot password?</span>
+            <button>Create new account</button>
+        </div>
+    </div>
+
+    <img src="../3 divs/images/mudassir.png" alt="loading" style="border-radius: 50%;">
+    <p
+        style="text-transform: capitalize;color: black;font-size: 35px;font-family: Arial, Helvetica, sans-serif ;font-weight: bold;position: relative;bottom: 340px;left: 500px;">
+        mudassir Tabani <br>class 7 <br>age 12</p>
+</body>
+
+</html>
